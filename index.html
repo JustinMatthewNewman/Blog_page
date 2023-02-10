@@ -1,72 +1,442 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<!doctype html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Blogr</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        <section class="hidden">
-            <h1 class="title">New Study shows dogs cure cancer.</h1>
-            <div class="col">
-                <img width="100%" src="https://i.guim.co.uk/img/media/92b6494f1432da934c7c6e8c30bab6874d58d9dc/0_18_5770_3462/master/5770.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=0a79747cba6430281a947a02856bc107" alt="Italian Trulli">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--==Keywords=========================================================-->
+<meta name="keywords" content="Harrisonburg food">
+
+<!--==Title============================================================-->
+<title>Best Food</title>
+
+<!--==Meta-Description=================================================-->
+<meta name="description" content="Harrisonburg food">
+
+<!--==Stylesheet=======================================================-->
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+
+<!--==Fav-icon=========================================================-->
+<link rel="shortcut icon" href="images/fav-icon.png"/>
+
+<!--==Using-Font-Awesome-for-Icons=====================================-->
+<script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+
+<!--==Import-Font-Family-From-Google-Font======================-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<!--==CSS-Swiper==============================-->
+<link rel="stylesheet" href="css/swiper-bundle.min.css"/>
+
+<!--==Animations==============================-->
+<link rel="stylesheet" href="css/aos.css" type="text/css"/>
+
+</head>
+
+<body>
+
+
+    <div class="fix">
+
+
+    <!--==Navigation==============================-->
+    <nav class="navigation">
+
+        <!--logo-->
+        <div class="logo-container">
+            <!-- <a href="index.html" class="logo">bf</a> -->
+        </div>
+
+    </nav>
+
+    <!--==main=====================================-->
+    <section id="main">
+
+        <div class="main-bg">
+            <img src="images/steak.png" alt="steak">
+        </div>
+
+        <!--text**********************-->
+        <div class="main-text">
+            <strong>Harrisonburg, Virginia</strong>
+            <h1>Culinary Exploration <span>.</span></h1>
+            <p>A bustling college town located in the heart of the Shenandoah Valley. Known for its friendly locals and lively atmosphere, it is also home to a variety of delicious restaurants that cater to a wide range of tastes and budgets. From farm-to-table cuisine to classic Southern cooking, Harrisonburg has something to offer for everyone.
+            </p>
+            <a href="#summery">More</a>
+        </div>
+
+        <!--Images********************-->
+        <div class="main-img">
+            <img src="images/steak.png" alt="steak">
+        </div>
+    </section>
+
+
+
+    <!--==Summery=========================================-->
+    <section id="summery">
+
+        <!--heading********************************-->
+        <div class="summery-heading">
+            <strong>handcrafted beers and delicious American cuisine.</strong>
+            <h2>Capital Ale House.</h2>
+            <!-- <a href="cv/Updated_CV.pdf" download>Get CV <i class="fas fa-download"></i></a> -->
+        </div>
+
+        <!--==Details******************************-->
+        <div class="summery-details" data-aos="fade-left" data-aos-duration="500">
+            <p>The menu features classic dishes such as burgers, salads, and sandwiches, as well as more sophisticated options such as grilled salmon and pan-seared duck. In addition to their excellent food, Capital Ale House also offers live music and special events, making it a great place to gather with friends and family.</p>
+        </div>
+
+    </section>
+
+
+    
+    
+    <!--==About==============================================-->
+    <section id="about">
+
+        <div class="about-container">
+    
+            <!--heading*****************************-->
+            <div class="about-heading" data-aos="fade" data-aos-duration="500">
+                <strong>Chinese cuisine</strong>
+                <h3>Oriental Cafe</h3>
+                <a href="tel:(540) 801-8989.">(540) 801-8989 <i class="fas fa-phone"></i></a>
             </div>
-        </section>
-
-        <section class="hiddenLeft">
-            <div class="col">
-                <h2>Column 2</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-              </div>
-        </section>
-
-        <section class="hiddenRight">
-            <div class="col">
-                <h2>Column 3</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-              </div>
-        </section>
-
-        <section class="hiddenLeft">
-            <div class="col">
-                <h2>Column 4</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-              </div>
-        </section>
-
-        <section class="hiddenRight">
-            <div class="col">
-                <div>
-                    <h2>Comment</h2>
+            <!--details*****************************-->
+            <div class="about-details" data-aos="fade" data-aos-duration="500">
+                <p>A wide range of dishes inspired by the cuisines of China, Vietnam, and Thailand. 
+                    One of the restaurant's most popular dishes is the Chicken Delight,
+                     which is made with juicy, tender chicken that is stir-fried with a variety 
+                     of fresh vegetables and served over steaming rice. The dish is topped with the restaurant's famous savory brown sauce. This sauce is what really sets the Chicken Delight apart from other stir-fry dishes, and it has earned the restaurant a reputation for serving some of the best Asian food in Harrisonburg.</p>
+                <p>Another must-try dish at Oriental Cafe is the Sweet Crispy Hot Beef, which is made with slices of tender beef that are crispy fried and then stir-fried with a sweet, savory sauce. The dish is served over a bed of steaming rice and is garnished with fresh peppers and onions. The combination of the crispy beef and the sweet sauce is truly irresistible, and it's no wonder that this dish is one of the restaurant's most popular. If you're in the mood for a delicious and satisfying meal, be sure to give the Sweet Crispy Hot Beef a try at Oriental Cafe in Harrisonburg, VA.</p>
+            </div>
     
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
     
-                    <input></input>
+        </section>
 
+
+
+    <section id="summery">
+
+        <!--heading********************************-->
+        <div class="summery-heading">
+            <strong>Next up is</strong>
+            <h2>Local Chop & Grill House</h2>
+            <!-- <a href="cv/Updated_CV.pdf" download>Get CV <i class="fas fa-download"></i></a> -->
+        </div>
+
+        <!--==Details******************************-->
+        <div class="summery-details" data-aos="fade-left" data-aos-duration="500">
+            <p>This farm-to-table restaurant is dedicated to using only the freshest, locally-sourced ingredients in all of their dishes. With a menu that features everything from grilled steaks and seafood to salads and vegetable-focused dishes, there is something for everyone at Local Chop & Grill House. In addition to their excellent food, the restaurant also offers a variety of special events, including wine dinners and cooking classes, making it a great place to learn about food and dining in Harrisonburg.</p>
+        </div>
+
+    </section>
+
+    
+    <!--==About==============================================-->
+    <section id="about">
+
+        <div class="about-container">
+    
+            <!--heading*****************************-->
+            <div class="about-heading" data-aos="fade" data-aos-duration="500">
+                <strong>A night on the town</strong>
+                <h3>Billy Jack's</h3>
+                <a href="tel:806-790-0683">806-790-0683 <i class="fas fa-phone"></i></a>
+            </div>
+            <!--details*****************************-->
+            <div class="about-details" data-aos="fade" data-aos-duration="500">
+                <p>A very popular restaurant amoung the college students that is known for its casual and relaxed atmosphere, as well as its delicious comfort food. The menu features a variety of classic dishes that are made with fresh ingredients and served in generous portions. Whether you're in the mood for breakfast, lunch, or dinner, you're sure to find something that you'll love at Billy Jack's.</p>
+            </div>
+    
+        </div>
+    
+        </section>
+    
+
+
+
+    <section id="summery">
+
+        <!--heading********************************-->
+        <div class="summery-heading">
+            <strong>Woodfire Pizza</strong>
+            <h2>Belle Luna</h2>
+            <!-- <a href="cv/Updated_CV.pdf" download>Get CV <i class="fas fa-download"></i></a> -->
+        </div>
+
+        <!--==Details******************************-->
+        <div class="summery-details" data-aos="fade-left" data-aos-duration="500">
+            <p>a charming and intimate restaurant that offers a unique dining experience in the heart of the city. The restaurant is known for its farm-to-table cuisine, which is made with the freshest and most local ingredients possible. Whether you're in the mood for breakfast, lunch, or dinner, you're sure to find something that you'll love at Belle Luna.
+
+                One of the restaurant's most popular dishes is the Belgian Waffles, which are made with a light and fluffy batter and topped with a variety of seasonal fruits and syrups. The waffles are the perfect way to start your day, and they're a staple of Belle Luna's menu. Another must-try dish is the Grilled Veggie Panini, which is made with a variety of fresh veggies that are grilled to perfection and served on a soft and chewy panini roll. The panini is topped with a tangy aioli that brings all of the flavors together perfectly.</p>
+        </div>
+
+    </section>
+    
+
+    <!--==Languages===================================-->
+    <section id="languages">
+
+        <div class="language-box" data-aos="fade-right" data-aos-duration="500">
+            <!--heading************************-->
+            <h3>Tags<span>.</span></h3>
+
+            <!--container**********************-->
+            <ul>
+                <li>Diner</li>
+                <li>Delicious</li>
+                <li>Cafe</li>
+                <li>Restaurants</li>
+            </ul>
+        </div>
+
+        <div class="language-box" data-aos="fade-left" data-aos-duration="500">
+            <!--heading************************-->
+            <h3>Trending<span>.</span></h3>
+
+            <!--container**********************--> 
+            <ul>
+                <li>Fitness</li>
+                <li>Travel</li>
+                <li>Science</li>
+                <li>History</li>
+            </ul>
+        </div>
+
+
+        <div class="language-box" data-aos="fade-right" data-aos-duration="500">
+            <!--heading************************-->
+            <h3>Social<span>.</span></h3>
+
+            <!--container**********************-->
+            <ul>
+                <li>Instagram</li>
+                <li>Facebook</li>
+                <li>Snapchat</li>
+            </ul>
+        </div>
+
+    </section>
+
+
+
+
+
+    <!--==Projects=============================================-->
+    <section id="projects">
+
+        <!--heading-container******************************-->
+        <div class="project-heading" data-aos="fade-right" data-aos-duration="500">
+            <h3>Related Content <span>+</span></h3>
+            <!--btns=========================-->
+            <div class="slider-btns">
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+
+
+    <!-- Slider============================================= -->
+    <div class="swiper mySwiper" data-aos="fade" data-aos-duration="500">
+        <div class="swiper-wrapper">
+
+        <!--1================================-->
+        <div class="swiper-slide">
+        <!--box=============-->
+        <div class="project-box">
+        <a href="https://github.com/Bfree22/Outserved-Reports" >
+            <img src="images/p-1.jpg" alt="Project"/>
+            <!--over-layer-->
+            <div class="p-ovrerlay">
+                <strong>Outstanding DC, cuisine.</strong>
+            </div>
+        </a>
+        </div>
+        </div>
+
+        <!--2================================-->
+        <div class="swiper-slide">
+            <!--box=============-->
+            <div class="project-box">
+            <a href="https://github.com/Bfree22/EV_Sentiment_Trading" >
+                <img src="images/p-2.jpg" alt="Project"/>
+                <!--over-layer-->
+                <div class="p-ovrerlay">
+                    <strong>Delicious options for two in RVA.</strong>
                 </div>
-              </div>
-        </section>
-        
-        <script src="app.js" async defer></script>
-    </body>
+            </a>
+        </div>
+        </div>
+
+
+        <!--3================================-->
+        <div class="swiper-slide">
+            <!--box=============-->
+            <div class="project-box">
+            <a href="https://github.com/Bfree22/Custom-portfolio-Risk-Return-Calculator" >
+                <img src="images/p-3.jpg" alt="Project"/>
+                <!--over-layer-->
+                <div class="p-ovrerlay">
+                    <strong>Pizza options in Roanoke.</strong>
+                </div>
+            </a>
+        </div>
+        </div>
+
+
+     
+
+        </div>
+        </div>
+    
+        <!--dribble-btn******************************-->
+        <div class="dribble-btn-c">
+            <a href="https://github.com/Bfree22" class="dribble-btn">Follow <i class="fab fa-instagram"></i></a>
+        </div>
+
+    </section>
+
+
+    <!--==Career-Education===========================-->
+    <section id="career-education">
+
+        <!--Career*****************************-->
+        <div class="career" data-aos="fade-right" data-aos-duration="500">
+        <!--heading=============-->
+        <h3>More<span>+</span></h3>
+        <!--container===========-->
+        <div class="c-box-container">
+
+            <!--box================-->
+            <div class="c-box">
+                <h4>Top ten restaurants.</h4>
+                <strong>Newman</strong>
+                <span>2019 – 2020</span>
+            </div>
+
+            <!--box================-->
+            <div class="c-box">
+                <h4>Best home style meals in RVA.</h4>
+                <strong>Newman and Robertson</strong>
+                <span>2018 – 2019</span>
+            </div>
+
+        </div>
+
+        </div>
+
+
+        <!--Edu*****************************-->
+        <div class="career edu" data-aos="fade-left" data-aos-duration="500">
+            <!--heading=============-->
+            <h3>Featured <span>+</span></h3>
+            <!--container===========-->
+            <div class="c-box-container">
+    
+                <!--box================-->
+                <div class="c-box">
+                    <h4>Garlic Butter Scallops recipe</h4>
+                    <strong>Newman</strong>
+                    <span>2022</span>
+                </div>
+    
+                <!--box================-->
+                <div class="c-box">
+                    <h4>Creamy Mushroom steak</h4>
+                    <strong>Newman and Echard</strong>
+                    <span>2017</span>
+                </div>
+    
+            </div>
+    
+            </div>
+
+
+    </section>
+
+    <!--==btn=========================================-->
+    <div class="btn-c">
+        <a class="dribble-btn" download>Read more <i class="fas fa-plus"></i></a>
+    </div>
+
+
+
+
+    <!--==contact============================================-->
+    <section id="contact" class="contact" data-aos="fade" data-aos-duration="500">
+        <strong>Is one of your favorites missing from the list?</strong>
+        <h3>Contact us!</h3>
+        <p>Harrisonburg, Virginia is home to a variety of delicious restaurants that cater to a wide range of tastes and budgets. From classic Southern cooking to farm-to-table cuisine, there is something for everyone in this vibrant college town. Whether you're looking for a casual bite to eat or an upscale dining experience, the best places to eat in Harrisonburg are sure to impress.</p>
+        <a href="mailto:cswithjustin@gmail.com" class="contact-btn">Write Us An Email <i class="far fa-envelope"></i></a>
+    </section>
+
+
+
+
+
+
+</div><!--Fix-->
+
+
+    <!--==JS-Swiper====================================-->
+    <script src="js/swiper-bundle.min.js"></script>
+
+    <script src="js/aos.js"></script>
+
+    <!--==script=======================================-->
+    <script>
+        /*Initialize Swiper*/
+       var swiper = new Swiper(".mySwiper", {
+         slidesPerView: 1,
+         spaceBetween: 10,
+         pagination: {
+           el: ".swiper-pagination",
+           clickable: true,
+         },
+         autoplay: {
+         delay: 6000,
+         disableOnInteraction: false,
+       },
+         navigation: {
+         nextEl: ".swiper-button-next",
+         prevEl: ".swiper-button-prev",
+       },
+         breakpoints: {
+           360: {
+             slidesPerView: 1,
+             spaceBetween: 20,
+           },
+           540: {
+             slidesPerView: 1,
+             spaceBetween: 20,
+           },
+           1200: {
+             slidesPerView: 2,
+             spaceBetween: 40,
+           },
+           840: {
+             slidesPerView: 1.5,
+             spaceBetween: 20,
+           },
+         },
+       });
+   
+       /*==scroll-animation==================================*/
+       AOS.init();
+
+
+    </script>
+</body>
+
 </html>
